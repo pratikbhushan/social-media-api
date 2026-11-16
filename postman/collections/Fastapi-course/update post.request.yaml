@@ -1,0 +1,13 @@
+$kind: http-request
+url: http://127.0.0.1:8000/posts/1
+method: PUT
+body:
+  type: json
+  content: "{\r
+
+    \    \"title\": \"updated title\",\r
+
+    \    \"content\": \"this is the new content\"\r
+
+    }"
+order: 3811129797751301

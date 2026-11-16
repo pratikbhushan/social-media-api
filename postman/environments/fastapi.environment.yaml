@@ -1,0 +1,7 @@
+name: fastapi
+values:
+  - key: URL
+    value: 'http://127.0.0.1:8000'
+  - key: JWT
+    value: ''
+color: 0

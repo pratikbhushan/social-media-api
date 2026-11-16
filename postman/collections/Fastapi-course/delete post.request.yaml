@@ -1,0 +1,10 @@
+$kind: http-request
+name: delete post
+url: '{{URL}}/posts/2'
+method: DELETE
+order: 3672888467656216
+auth:
+  type: bearer
+  credentials:
+    - key: token
+      value: '{{JWT}}'

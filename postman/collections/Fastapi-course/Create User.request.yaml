@@ -1,0 +1,13 @@
+$kind: http-request
+url: http://127.0.0.1:8000/posts
+method: POST
+body:
+  type: json
+  content: "{\r
+
+    \    \"email\": \"rajan@gmail.com\",\r
+
+    \    \"password\": \"password123\"\r
+
+    }"
+order: 4482420638319880

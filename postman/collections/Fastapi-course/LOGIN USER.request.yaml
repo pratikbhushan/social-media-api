@@ -1,0 +1,12 @@
+$kind: http-request
+name: LOGIN USER
+url: 'http://127.0.0.1:8000/login'
+method: POST
+order: 4490613163373148
+body:
+  type: urlencoded
+  content:
+    - key: username
+      value: pratikbhushan@gmail.com
+    - key: password
+      value: password123

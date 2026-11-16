@@ -1,0 +1,18 @@
+$kind: http-request
+description: ""
+url: http://127.0.0.1:8000/posts
+method: POST
+body:
+  type: json
+  content: "{\r
+
+    \    \"title\": \"top beaches in karnataka\",\r
+
+    \    \"content\": \"nothing to be written in the content\",\r
+
+    \    \"published\": true,\r
+
+    \    \"rating\": 9\r
+
+    }"
+order: 2292975252559612
